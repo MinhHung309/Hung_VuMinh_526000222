@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân - Sinh Viên CNTT</title>
+    
+    <!-- Animate.css CDN (Cho hiệu ứng tải trang ban đầu) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- AOS CSS CDN (Cho hiệu ứng cuộn trang) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Liên kết đến file CSS bên ngoài (style.css) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Phần HEADER: Chứa tiêu đề chính và thanh điều hướng -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Vũ Minh Hưng</h1>
+                <p>Sinh viên Công nghệ thông tin</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#trang-chu">Trang chủ</a></li>
+                    <li><a href="#gioi-thieu">Giới thiệu</a></li>
+                    <li><a href="#ky-nang">Kỹ năng</a></li>
+                    <li><a href="#du-an">Dự án</a></li>
+                    <li><a href="#lien-he">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Phần MAIN: Chứa toàn bộ nội dung chính của trang web -->
+    <main>
+        <!-- Section TRANG CHỦ -->
+        <section id="trang-chu">
+            <h2 class="animate__animated animate__fadeInDown">Xin chào, tôi là <span class="highlight">Vũ Minh Hưng</span></h2>
+            <p class="role animate__animated animate__fadeIn animate__delay-1s">Sinh viên Công nghệ thông tin</p>
+            <p class="desc animate__animated animate__fadeIn animate__delay-1s">Một sinh viên đam mê lập trình và phát triển phần mềm, luôn tìm tòi học hỏi các công nghệ mới để xây dựng những ứng dụng hữu ích.</p>
+            <div class="hero-cta animate__animated animate__fadeInUp animate__delay-1s">
+                <a href="#du-an" class="btn btn-primary">Xem dự án</a>
+                <a href="#lien-he" class="btn btn-secondary">Liên hệ ngay</a>
+            </div>
+        </section>
+
+        <!-- Section GIỚI THIỆU -->
+        <section id="gioi-thieu" data-aos="fade-up">
+            <h2>Giới thiệu bản thân</h2>
+            <article>
+                <h3>Về tôi</h3>
+                <p>Tôi hiện đang là sinh viên chuyên ngành Công nghệ thông tin tại trường Đại học Lạc Hồng. Tôi yêu thích việc xây dựng các ứng dụng web và giải quyết các vấn đề thực tế bằng code.</p>
+                
+                <h3>Học vấn</h3>
+                <p>Đại học Lạc Hồng - Chuyên ngành Công nghệ thông tin (2026 - 2027)</p>
+            </article>
+        </section>
+
+        <!-- Section KỸ NĂNG -->
+        <section id="ky-nang">
+            <h2 data-aos="fade-up">Kỹ năng</h2>
+            <ul>
+                <li data-aos="fade-up" data-aos-delay="100"><strong>Ngôn ngữ lập trình:</strong> HTML, CSS, JavaScript, Python, Java</li>
+                <li data-aos="fade-up" data-aos-delay="200"><strong>Frameworks/Thư viện:</strong> ReactJS, NodeJS, Bootstrap</li>
+                <li data-aos="fade-up" data-aos-delay="300"><strong>Công cụ:</strong> Git, GitHub, VS Code</li>
+                <li data-aos="fade-up" data-aos-delay="400"><strong>Kỹ năng khác:</strong> Làm việc nhóm, Giải quyết vấn đề, Quản lý thời gian</li>
+            </ul>
+        </section>
+
+        <!-- Section DỰ ÁN -->
+        <section id="du-an">
+            <h2 data-aos="fade-up">Dự án tiêu biểu</h2>
+            
+            <article data-aos="fade-up" data-aos-delay="100">
+                <h3>Dự án 1: Website Quản lý Bán hàng</h3>
+                <p><strong>Mô tả:</strong> Xây dựng một website thương mại điện tử nhỏ cho phép người dùng xem sản phẩm, thêm vào giỏ hàng và đặt hàng.</p>
+                <p><strong>Công nghệ:</strong> HTML, CSS, JavaScript, NodeJS, MongoDB.</p>
+            </article>
+
+            <article data-aos="fade-up" data-aos-delay="200">
+                <h3>Dự án 2: Ứng dụng To-Do List</h3>
+                <p><strong>Mô tả:</strong> Ứng dụng quản lý công việc cá nhân giúp người dùng ghi chú và theo dõi các nhiệm vụ hằng ngày một cách trực quan.</p>
+                <p><strong>Công nghệ:</strong> ReactJS, Local Storage.</p>
+            </article>
+        </section>
+
+        <!-- Section LIÊN HỆ -->
+        <section id="lien-he" data-aos="fade-up">
+            <h2>Liên hệ với tôi</h2>
+            <p>Nếu bạn muốn hợp tác hoặc có bất kỳ câu hỏi nào, xin vui lòng liên hệ thông qua:</p>
+            <ul>
+                <li>Email: <a href="mailto:526000222@lachong.edu.vn">526000222@lachong.edu.vn</a></li>
+                <li>Điện thoại: 0987712170</li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/MinhHung309" target="_blank">MinhHung309</a></li>
+                <li>GitHub: <a href="https://github.com/MinhHung309" target="_blank">MinhHung309</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Phần FOOTER: Chứa thông tin bản quyền hoặc các liên kết phụ -->
+    <footer>
+        <p>&copy; 2026 Vũ Minh Hưng. Thiết kế với sự đam mê học hỏi.</p>
+    </footer>
+
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Khởi tạo thư viện AOS
+        AOS.init({
+            duration: 800,   // Thời gian diễn ra hiệu ứng (800ms)
+            once: true,      // Hiệu ứng chỉ chạy 1 lần khi cuộn trang xuống
+            offset: 100,     // Khoảng cách cuộn (100px) trước khi phần tử xuất hiện mới kích hoạt
+            easing: 'ease-in-out'
+        });
+    </script>
+</body>
+</html>
